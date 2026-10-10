@@ -1,0 +1,9 @@
+fastapi
+uvicorn[standard]
+python-multipart
+Pillow
+google-genai
+python-dotenv
+pymongo[srv]
+bcrypt
+python-jose[cryptography]

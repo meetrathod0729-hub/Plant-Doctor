@@ -1,0 +1,48 @@
+
+# Secrets and environment variables
+.env
+.env.*
+!.env.example
+**/.env
+**/.env.*
+!**/.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+.pytest_cache/
+.mypy_cache/
+
+# Frontend dependencies and build output
+node_modules/
+dist/
+.vite/
+
+# Editors and operating systems
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+npm-debug.log*
+
+# Local datasets and generated evaluation results
+PlantDoc-Dataset-master/
+**/PlantDoc-Dataset-master/
+evaluation/*.csv
+test_results.csv
+
+# Local model artifacts (if generated)
+*.keras
+*.h5
+*.pkl
+*.pt
+*.pth
+
+# Local-only configuration
+*.local
