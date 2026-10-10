@@ -7,3 +7,4 @@ python-dotenv
 pymongo[srv]
 bcrypt
 python-jose[cryptography]
+email-validator
